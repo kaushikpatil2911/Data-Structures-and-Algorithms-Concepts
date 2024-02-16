@@ -37,15 +37,6 @@ git clone https://github.com/kaushikpatil2911/Data-Structures-and-Algorithms-Con
 
 4. Feel free to modify the code, experiment with different inputs, and learn how each data structure or algorithm works.
 
-## 🤝 Contribution Guidelines
-
-- Contributions are welcome! If you'd like to contribute to this repository, please follow these guidelines:
-    - 🍴 Fork the repository.
-    - 🌿 Create a new branch for your feature or bug fix.
-    - 🖋️ Make your changes and ensure the code follows the established style and conventions.
-    - ✅ Write tests to cover your changes, if applicable.
-    - 🚀 Submit a pull request with a clear description of your changes.
-
 - If you find any bugs or issues with the existing code, please open an issue on GitHub and describe the problem in detail.
 
 ## 📚 Resources
@@ -58,5 +49,3 @@ git clone https://github.com/kaushikpatil2911/Data-Structures-and-Algorithms-Con
 ## 🔗 Related Repositories
 
 Pending
-
-Happy coding! If you have any questions or suggestions, feel free to reach out.
