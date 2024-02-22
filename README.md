@@ -36,16 +36,3 @@ git clone https://github.com/kaushikpatil2911/Data-Structures-and-Algorithms-Con
 3. Explore the Python implementations.
 
 4. Feel free to modify the code, experiment with different inputs, and learn how each data structure or algorithm works.
-
-- If you find any bugs or issues with the existing code, please open an issue on GitHub and describe the problem in detail.
-
-## 📚 Resources
-
-- [GeeksforGeeks](https://www.geeksforgeeks.org/)
-- [LeetCode](https://leetcode.com/)
-- [Hackerrank](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript)
-- [Coursera - Algorithms Specialization](https://www.coursera.org/specializations/algorithms)
-
-## 🔗 Related Repositories
-
-Pending
