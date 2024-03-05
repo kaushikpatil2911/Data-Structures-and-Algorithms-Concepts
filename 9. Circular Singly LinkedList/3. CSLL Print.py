@@ -3,7 +3,7 @@ class Node:
         self.value = value
         self.next = None
 
-class CSLL:
+class CSLL():
     def __init__(self):
         self.head = None
         self.tail = None
@@ -11,7 +11,7 @@ class CSLL:
 
     def __str__(self):
         temp_node = self.head
-        result = ""
+        result = ''
         while temp_node is not None:
             result += str(temp_node.value)
             temp_node = temp_node.next
@@ -22,7 +22,7 @@ class CSLL:
 
     def append(self,value):
         new_node = Node(value)
-        if self.length == 0:
+        if self.head is None:
             self.head = new_node
             self.tail = new_node
             new_node.next = new_node
@@ -33,20 +33,19 @@ class CSLL:
         self.length += 1       
 
 
-cs_ll = CSLL()
-print(cs_ll)
-print(cs_ll.head.value)
-print(cs_ll.tail.value)
-print(cs_ll.length)
+csll = CSLL()
+print(csll)
+print(csll.head)
+print(csll.tail)
+print(csll.length)
 print("----------------")
-cs_ll = CSLL()
-cs_ll.append(10)
-cs_ll.append(20)
-cs_ll.append(30)
-print(cs_ll)
-print(cs_ll.head.value)
-print(cs_ll.tail.value)
-print(cs_ll.length)
+csll.append(10)
+csll.append(20)
+csll.append(30)
+print(csll)
+print(csll.head)
+print(csll.tail)
+print(csll.length)
 print("----------------")
 
 # Time Complexity -> O(1)
