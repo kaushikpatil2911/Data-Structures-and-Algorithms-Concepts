@@ -17,7 +17,7 @@ class CSLL:
             new_node.next = new_node
         else:
             self.tail.next = new_node
-            self.tail.next = self.head
+            new_node.next = self.head
             self.tail = new_node    
         self.length += 1       
 

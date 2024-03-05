@@ -15,20 +15,20 @@ class CSLL():
         while temp_node is not None:
             result += str(temp_node.value)
             temp_node = temp_node.next
-            if temp_node.next == self.head:
+            if temp_node == self.head:
                 break
             result += ' -> '
         return result       
 
     def append(self,value):
         new_node = Node(value)
-        if self.head is None:
+        if self.length == 0:
             self.head = new_node
             self.tail = new_node
             new_node.next = new_node
         else:
             self.tail.next = new_node
-            self.tail.next = self.head
+            new_node.next = self.head
             self.tail = new_node    
         self.length += 1       
 
@@ -43,8 +43,8 @@ csll.append(10)
 csll.append(20)
 csll.append(30)
 print(csll)
-print(csll.head)
-print(csll.tail)
+print(csll.head.value)
+print(csll.tail.value)
 print(csll.length)
 print("----------------")
 
