@@ -1,6 +1,6 @@
 # 🐍 Python Data Structures and Algorithms 🧠
 
-Welcome to the Python Data Structures and Algorithms repository! Here you will find implementations of various data structures and algorithms in Python. This repository is intended for educational purposes to help you understand fundamental concepts in computer science and improve your problem-solving skills.
+Welcome to the Python Data Structures and Algorithms repository! Here you will find implementations of various data structures and algorithms in Python. This repository is intended for educational purposes to help you understand fundamental concepts in computer science and improve your problem-solving skills to crack the interviews.
 
 ## 📚 Contents
 
