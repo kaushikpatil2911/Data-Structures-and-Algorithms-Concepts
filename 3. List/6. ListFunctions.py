@@ -25,8 +25,8 @@ print(sum(a)/len(a)) #Average
 #Average of list elements
 myList = []
 while(True):
-    inp = input("Enter the number : ")
-    if inp == 'done':
+    inp = input("Enter the number (done to finish) : ")
+    if inp == 'done' and len(myList) > 0:
         break
     value = float(inp)
     myList.append(value)
